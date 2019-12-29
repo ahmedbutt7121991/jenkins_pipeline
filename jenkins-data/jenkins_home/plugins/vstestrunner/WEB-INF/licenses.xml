@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='vstestrunner' version='1.0.8'><l:dependency name='Jenkins VSTest Runner plugin' groupId='org.jenkins-ci.plugins' artifactId='vstestrunner' version='1.0.8' url='http://wiki.jenkins-ci.org/display/JENKINS/VsTestRunner+Plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='The MIT license' url='http://www.opensource.org/licenses/mit-license.php'/></l:dependency></l:dependencies>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ubuntu
+Build-Jdk: 1.7.0_101
+Extension-Name: windocks-start-container
+Specification-Title: Allows for the creation and start of Windocks Con
+ tainers
+Implementation-Title: windocks-start-container
+Implementation-Version: 1.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: windocks-start-container
+Long-Name: Start Windocks Containers
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Windocks+Plugin
+Plugin-Version: 1.4
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Windocks Support:support:support@windocks.com
+

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Joseph Petersen
+Build-Jdk: 1.8.0_201
+Extension-Name: vstestrunner
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: vstestrunner
+Implementation-Version: 1.0.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: vstestrunner
+Long-Name: Jenkins VSTest Runner plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/VsTestRunner+Plugin
+Plugin-Version: 1.0.8
+Hudson-Version: 2.7.4
+Jenkins-Version: 2.7.4
+Plugin-Dependencies: structs:1.14
+Plugin-Developers: Erik Goughnour:egoughnour:,Yasuyuki Saito:yasu_s:
+

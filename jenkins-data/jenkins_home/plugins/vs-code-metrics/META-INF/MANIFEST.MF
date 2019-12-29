@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Y-Saito
+Build-Jdk: 1.6.0_29
+Extension-Name: vs-code-metrics
+Implementation-Title: vs-code-metrics
+Implementation-Version: 1.7
+Group-Id: org.jenkins-ci.plugins
+Short-Name: vs-code-metrics
+Long-Name: Jenkins Visual Studio Code Metrics Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Visual+Studio+Code+Me
+ trics+Plugin
+Plugin-Version: 1.7
+Hudson-Version: 1.466
+Jenkins-Version: 1.466
+Plugin-Developers: Yasuyuki Saito:yasu_s:yasuyuki.saito.2012@gmail.com
+

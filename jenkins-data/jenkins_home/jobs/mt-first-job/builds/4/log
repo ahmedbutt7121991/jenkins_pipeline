@@ -1,0 +1,14 @@
+Started by user [8mha:////4LPX0WkG0xYZoFbcspkhb2Tig4z5FNY4iEMX0BHzrG0yAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/mt-first-job
+[mt-first-job] $ /bin/sh -xe /tmp/jenkins6084906775343179208.sh
++ Name=Ahmed
++ Lastname=Butt
++ echo Build 4
+Build 4
++ date
++ echo Current Date & Time is Sun Dec  1 09:38:45 UTC 2019
+Current Date & Time is Sun Dec  1 09:38:45 UTC 2019
++ /tmp/first-job.sh Ahmed Butt
+Hello!!	Ahmed Butt
+Finished: SUCCESS

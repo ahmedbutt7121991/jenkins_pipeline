@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='vs-code-metrics' version='1.7'>
+  <l:dependency name='Jenkins Visual Studio Code Metrics Plugin' groupId='org.jenkins-ci.plugins' artifactId='vs-code-metrics' version='1.7' url='https://wiki.jenkins-ci.org/display/JENKINS/Visual+Studio+Code+Metrics+Plugin'>
+    <l:description />
+    <l:license name='The MIT license' url='http://www.opensource.org/licenses/mit-license.php' />
+  </l:dependency>
+</l:dependencies>
