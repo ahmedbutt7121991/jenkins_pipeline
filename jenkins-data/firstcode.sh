@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "sample code"
+
 Name=$1
 Lastname=$2
 Show_name=$3
