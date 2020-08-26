@@ -8,5 +8,4 @@ if [ "$Show_name" = "true" ]; then
   echo "Hello!!	$Name $Lastname"
 else
   echo "Set Show_name to true to see the Name"
-  echo "Choose True"
 fi
