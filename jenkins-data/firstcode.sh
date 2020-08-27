@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Lets test our githook trigger"
-
+echo "ngork is used to open 8080 port to public"
 Name=$1
 Lastname=$2
 Show_name=$3
