@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "sample code"
+echo "Lets test our githook trigger"
 
 Name=$1
 Lastname=$2
