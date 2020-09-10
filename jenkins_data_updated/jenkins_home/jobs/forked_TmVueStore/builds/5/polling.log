@@ -1,0 +1,13 @@
+Started on Sep 10, 2020 10:42:25 AM
+Started by event from 140.82.115.248 ⇒ http://jenkins.tm8.co.uk:8080/github-webhook/ on Thu Sep 10 10:42:25 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 365f9b0ede2cec54bd0e9b3064e26864d7b63b9c (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git ls-remote -h -- https://github.com/ahmedbutt7121991/TmVuestore.git # timeout=10
+Found 29 remote heads on https://github.com/ahmedbutt7121991/TmVuestore.git
+[poll] Latest remote head revision on refs/heads/master is: 817ec5d4d10a982924db989ea4cbf85d7381ce07
+Done. Took 1.4 sec
+Changes found

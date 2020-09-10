@@ -1,0 +1,35 @@
+- hosts: test1
+  tasks:
+    - name: run this command and create a file in remote_host
+      shell: echo "Hello World Running Playbook from Jenkins container to remote-host container:)" > /tmp/ansible-file
+
+- hosts: ubuntu
+  tasks:
+    - name: testing local ubuntu server access
+      shell: echo "hello ubuntu" > /home/ahmed/hello.txt
+    
+    - name: Copying file from Ubuntu to remote_host
+      shell: echo "file transfer...."
+      
+    - name: Fetching file from ubuntu server
+      run_once: yes
+      fetch: src=/home/ahmed/automation/test.sh dest=buffer/ flat=yes
+
+- hosts: test1
+  tasks:
+    - name: Copying to remote host
+      copy: src=buffer/test.sh dest=/tmp/test.sh mode=0777
+
+    - name: Running Copied Script
+      shell: /tmp/test.sh
+      register: shell_result
+
+    - debug:
+        var: shell_result.stdout_lines
+
+    - name: Listing files
+      shell: ls /tmp/
+      register: shell_result1
+
+    - debug:
+        var: shell_result1.stdout_lines

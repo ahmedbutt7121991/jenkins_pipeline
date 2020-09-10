@@ -1,0 +1,9 @@
+commit ced58831e9308c366ce471175d6a60e75161aae1
+tree b3ca537f3cdd593f075e662f14edf649da3c1fba
+parent f5a7473969055f2ab44e216cd767c93d6883b342
+author Ahmed Butt <ahmed.butt91@gmail.com> 2020-09-11 19:36:14 +0500
+committer GitHub <noreply@github.com> 2020-09-11 19:36:14 +0500
+
+    Done public and private triggers
+
+:100644 100644 62d71f62f910b5a1928771d249ca834004434534 6d1d861d3568c5906ad5e405b833eda76e7c859f M	README.md

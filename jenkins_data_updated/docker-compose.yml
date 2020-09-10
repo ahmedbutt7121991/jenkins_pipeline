@@ -1,0 +1,52 @@
+version: '3'
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins-ansible
+    build:
+      context: jenkins_ansible
+    ports:
+      - "8080:8080"
+    volumes:
+      - $PWD/jenkins_home:/var/jenkins_home
+    networks:
+      - net
+    environment:
+      - DOCKER_HOST=tcp://socat:2375
+    depends_on:
+      - socat
+  socat:
+    container_name: socat
+    image: alpine/socat
+    networks:
+      - net
+    command: tcp-listen:2375,fork,reuseaddr unix-connect:/var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    expose:
+    - "2375"
+  jenkins-agent:
+    container_name: jenkins-agent
+    image: jenkins_agent
+    build:
+      context: jenkins_agent
+    ports:
+      - "38787:22"
+    networks:
+      - net
+  remote_host:
+    container_name: remote-host
+    image: remote-host
+    build:
+      context: centos7
+    networks:
+      - net
+  ansible_host:
+    container_name: ansible-host
+    image: ansible-host
+    build:
+      context: ansible_img
+    networks:
+      - net
+networks:
+  net:

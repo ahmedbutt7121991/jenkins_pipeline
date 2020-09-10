@@ -1,0 +1,53 @@
+Started on Sep 10, 2020 10:04:49 AM
+Started by event from 140.82.115.247 ⇒ http://jenkins.tm8.co.uk:8080/github-webhook/ on Thu Sep 10 10:04:49 UTC 2020
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision ebdeff4e8a07fccc7fba44cd158d7327765a73e7 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/tilemountainuk/TmVuestore.git # timeout=10
+Fetching upstream changes from https://github.com/tilemountainuk/TmVuestore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --tags --progress -- https://github.com/tilemountainuk/TmVuestore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/MetaTag
+Seen branch in repository origin/NewSearchPageBranch
+Seen branch in repository origin/Searchpanel
+Seen branch in repository origin/SubCategoriesTask
+Seen branch in repository origin/TMVS2-1
+Seen branch in repository origin/TMVS2-1new
+Seen branch in repository origin/TMVS2-2
+Seen branch in repository origin/TMVS2-23
+Seen branch in repository origin/TMVS2-25
+Seen branch in repository origin/TMVS2-26
+Seen branch in repository origin/TMVS2-37
+Seen branch in repository origin/TMVS2-38
+Seen branch in repository origin/TMVS2-44
+Seen branch in repository origin/TMVS2-44N
+Seen branch in repository origin/cartpagespacing
+Seen branch in repository origin/dev
+Seen branch in repository origin/footer_banner
+Seen branch in repository origin/header-issues
+Seen branch in repository origin/header-new
+Seen branch in repository origin/home_delivery
+Seen branch in repository origin/home_sliders
+Seen branch in repository origin/home_videos
+Seen branch in repository origin/layeredNav
+Seen branch in repository origin/main_product
+Seen branch in repository origin/master
+Seen branch in repository origin/mountcall
+Seen branch in repository origin/product_slider
+Seen branch in repository origin/recently-view
+Seen branch in repository origin/revert-22-product_slider
+Seen branch in repository origin/revert-3-Searchpanel
+Seen branch in repository origin/reviews
+Seen branch in repository origin/success
+Seen branch in repository origin/viewcart
+Seen 33 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m ebdeff4e8a07fccc7fba44cd158d7327765a73e7..e086b9c24543405ed5ce62394ed9252aa222408b # timeout=10
+Done. Took 3.4 sec
+Changes found

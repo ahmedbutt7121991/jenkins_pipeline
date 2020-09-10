@@ -1,0 +1,27 @@
+Started by GitHub push by ahmedbutt7121991
+Running as SYSTEM
+Building remotely on [8mha:////4GyV114LfO8VLXpFIlyfNlu2So6xaDX/QFPnXgcpBmFwAAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY1/eT83ILSktQi/azUvOzMvOL4xPTUvBJDXQMgKEkuNauwzDQtBQB4qVSM2wAAAA==[0mjenkins_agent1-0000tcu6x9i5u on docker (Agent1) in workspace /home/jenkins/workspace/private-trigger
+The recommended git tool is: NONE
+using credential gitcred
+Cloning the remote Git repository
+Cloning repository git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git init /home/jenkins/workspace/private-trigger # timeout=10
+Fetching upstream changes from git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:ahmedbutt7121991/gitwebhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ahmedbutt7121991/gitwebhook.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d3eabcfc57fd1cb422a60fb9eeba3e3a9031c4b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d3eabcfc57fd1cb422a60fb9eeba3e3a9031c4b # timeout=10
+Commit message: "On demand slave"
+ > git rev-list --no-walk ced58831e9308c366ce471175d6a60e75161aae1 # timeout=10
+[private-trigger] $ /bin/sh -xe /tmp/jenkins1663289088309896639.sh
++ echo Private Need SSH url and SSH credantials
+Private Need SSH url and SSH credantials
+Finished: SUCCESS

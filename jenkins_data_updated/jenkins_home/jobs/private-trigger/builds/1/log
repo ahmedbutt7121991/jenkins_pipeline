@@ -1,0 +1,27 @@
+Started by user [8mha:////4C4XV9+o69uS/aEkyAmG2gPqTNgL5IHgxyY3AykAqYB3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/private-trigger
+The recommended git tool is: NONE
+using credential gitcred
+Cloning the remote Git repository
+Cloning repository git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git init /var/jenkins_home/workspace/private-trigger # timeout=10
+Fetching upstream changes from git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- git@github.com:ahmedbutt7121991/gitwebhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ahmedbutt7121991/gitwebhook.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8b5239f904b17495ef79bb3bcd3e77fa9688a84d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b5239f904b17495ef79bb3bcd3e77fa9688a84d # timeout=10
+Commit message: "worked"
+First time build. Skipping changelog.
+[private-trigger] $ /bin/sh -xe /tmp/jenkins5003776410417155977.sh
++ echo Private Need SSH url and SSH credantials
+Private Need SSH url and SSH credantials
+Finished: SUCCESS

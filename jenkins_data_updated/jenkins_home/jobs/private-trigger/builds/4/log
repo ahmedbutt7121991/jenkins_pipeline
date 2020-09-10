@@ -1,0 +1,24 @@
+Started by GitHub push by ahmedbutt7121991
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/private-trigger
+The recommended git tool is: NONE
+using credential gitcred
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ahmedbutt7121991/gitwebhook.git # timeout=10
+Fetching upstream changes from git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- git@github.com:ahmedbutt7121991/gitwebhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f5a7473969055f2ab44e216cd767c93d6883b342 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f5a7473969055f2ab44e216cd767c93d6883b342 # timeout=10
+Commit message: "private Done"
+ > git rev-list --no-walk 639e8c1d57dc2e723e0f85618f5c36ca5743b390 # timeout=10
+[private-trigger] $ /bin/sh -xe /tmp/jenkins2775939286324037831.sh
++ echo Private Need SSH url and SSH credantials
+Private Need SSH url and SSH credantials
+Finished: SUCCESS

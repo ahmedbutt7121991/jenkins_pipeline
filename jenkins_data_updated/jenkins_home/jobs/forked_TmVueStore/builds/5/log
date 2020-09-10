@@ -1,0 +1,31 @@
+Started by GitHub push by ahmedbutt7121991
+Running as SYSTEM
+Building remotely on [8mha:////4KNarvdFULiU8TEIs9Gw7IacShenmplsZX0hj5pb3eBkAAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY1/eT83ILSktQi/azUvOzMvOL4xPTUvBIjXQMgKKuoTDfPtUg3AwDKS5YG2wAAAA==[0mjenkins_agent2-0000vxyg7m8g6 on docker (Agent2) in workspace /home/jenkins/workspace/forked_TmVueStore
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ahmedbutt7121991/TmVuestore.git
+ > git init /home/jenkins/workspace/forked_TmVueStore # timeout=10
+Fetching upstream changes from https://github.com/ahmedbutt7121991/TmVuestore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/ahmedbutt7121991/TmVuestore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ahmedbutt7121991/TmVuestore.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 817ec5d4d10a982924db989ea4cbf85d7381ce07 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 817ec5d4d10a982924db989ea4cbf85d7381ce07 # timeout=10
+Commit message: "Still testing"
+ > git rev-list --no-walk 365f9b0ede2cec54bd0e9b3064e26864d7b63b9c # timeout=10
+[forked_TmVueStore] $ /bin/sh -xe /tmp/jenkins7269911300677263695.sh
++ echo Forked TmVueStore is Pushed
+Forked TmVueStore is Pushed
++ echo Buidl URL :	http://192.168.1.182:8080/job/forked_TmVueStore/5/
+Buidl URL :	http://192.168.1.182:8080/job/forked_TmVueStore/5/
++ echo Job URL:		http://192.168.1.182:8080/job/forked_TmVueStore/
+Job URL:		http://192.168.1.182:8080/job/forked_TmVueStore/
+Archiving artifacts
+Finished: SUCCESS

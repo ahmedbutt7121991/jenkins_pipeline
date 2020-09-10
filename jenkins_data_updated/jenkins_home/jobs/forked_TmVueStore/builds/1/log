@@ -1,0 +1,30 @@
+Started by GitHub push by ahmedbutt7121991
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/forked_TmVueStore
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ahmedbutt7121991/TmVuestore.git
+ > git init /var/jenkins_home/workspace/forked_TmVueStore # timeout=10
+Fetching upstream changes from https://github.com/ahmedbutt7121991/TmVuestore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --tags --progress -- https://github.com/ahmedbutt7121991/TmVuestore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ahmedbutt7121991/TmVuestore.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 365f9b0ede2cec54bd0e9b3064e26864d7b63b9c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 365f9b0ede2cec54bd0e9b3064e26864d7b63b9c # timeout=10
+Commit message: "modify README.md"
+First time build. Skipping changelog.
+[forked_TmVueStore] $ /bin/sh -xe /tmp/jenkins7647903162237580538.sh
++ echo Forked TmVueStore is Pushed
+Forked TmVueStore is Pushed
++ echo Buidl URL :	http://192.168.1.182:8080/job/forked_TmVueStore/1/
+Buidl URL :	http://192.168.1.182:8080/job/forked_TmVueStore/1/
++ echo Job URL:		http://192.168.1.182:8080/job/forked_TmVueStore/
+Job URL:		http://192.168.1.182:8080/job/forked_TmVueStore/
+Finished: SUCCESS

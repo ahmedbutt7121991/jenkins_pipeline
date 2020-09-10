@@ -1,0 +1,276 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.31.0">
+            <pushedBy>haideritx</pushedBy>
+          </com.cloudbees.jenkins.GitHubPushCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <com.nirima.jenkins.plugins.docker.action.DockerBuildAction plugin="docker-plugin@1.2.0">
+      <cloudId>docker</cloudId>
+      <containerHost>tcp://172.18.0.5:2375</containerHost>
+      <containerId>510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b</containerId>
+      <inspect>{
+  &quot;Args&quot; : [ ],
+  &quot;Config&quot; : {
+    &quot;AttachStderr&quot; : false,
+    &quot;AttachStdin&quot; : false,
+    &quot;AttachStdout&quot; : false,
+    &quot;Cmd&quot; : [ &quot;/bin/sh&quot; ],
+    &quot;Domainname&quot; : &quot;&quot;,
+    &quot;Env&quot; : [ &quot;PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;, &quot;LANG=C.UTF-8&quot;, &quot;JAVA_HOME=/usr/local/openjdk-8&quot;, &quot;JAVA_VERSION=8u265&quot;, &quot;AGENT_WORKDIR=/home/jenkins/agent&quot; ],
+    &quot;Hostname&quot; : &quot;510f5e37449b&quot;,
+    &quot;Image&quot; : &quot;jenkins/slave&quot;,
+    &quot;Labels&quot; : {
+      &quot;Description&quot; : &quot;This is a base image, which provides the Jenkins agent executable (agent.jar)&quot;,
+      &quot;Vendor&quot; : &quot;Jenkins project&quot;,
+      &quot;Version&quot; : &quot;4.3&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsContainerImage&quot; : &quot;jenkins/slave&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsId&quot; : &quot;77e09902bfa13a4af90e9189110eb8b6&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsNodeName&quot; : &quot;jenkins_agent1-0000wweoma91y&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsRemoveVolumes&quot; : &quot;false&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsServerUrl&quot; : &quot;http://192.168.1.182:8080/&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsTemplateName&quot; : &quot;jenkins_agent1&quot;
+    },
+    &quot;OpenStdin&quot; : false,
+    &quot;StdinOnce&quot; : false,
+    &quot;Tty&quot; : true,
+    &quot;User&quot; : &quot;jenkins&quot;,
+    &quot;Volumes&quot; : {
+      &quot;/home/jenkins/.jenkins&quot; : { },
+      &quot;/home/jenkins/agent&quot; : { }
+    },
+    &quot;WorkingDir&quot; : &quot;/home/jenkins&quot;
+  },
+  &quot;Created&quot; : &quot;2020-09-10T11:27:38.212500221Z&quot;,
+  &quot;Driver&quot; : &quot;overlay2&quot;,
+  &quot;ExecDriver&quot; : null,
+  &quot;HostConfig&quot; : {
+    &quot;BlkioWeight&quot; : 0,
+    &quot;ContainerIDFile&quot; : &quot;&quot;,
+    &quot;CpuPeriod&quot; : 0,
+    &quot;CpuRealtimePeriod&quot; : 0,
+    &quot;CpuRealtimeRuntime&quot; : 0,
+    &quot;CpuShares&quot; : 0,
+    &quot;CpuQuota&quot; : 0,
+    &quot;CpusetCpus&quot; : &quot;&quot;,
+    &quot;CpusetMems&quot; : &quot;&quot;,
+    &quot;IpcMode&quot; : &quot;private&quot;,
+    &quot;Cgroup&quot; : &quot;&quot;,
+    &quot;LogConfig&quot; : {
+      &quot;Type&quot; : &quot;json-file&quot;,
+      &quot;Config&quot; : { }
+    },
+    &quot;Memory&quot; : 0,
+    &quot;MemorySwap&quot; : 0,
+    &quot;MemoryReservation&quot; : 0,
+    &quot;KernelMemory&quot; : 0,
+    &quot;NetworkMode&quot; : &quot;default&quot;,
+    &quot;OomKillDisable&quot; : false,
+    &quot;AutoRemove&quot; : false,
+    &quot;OomScoreAdj&quot; : 0,
+    &quot;PortBindings&quot; : { },
+    &quot;Privileged&quot; : false,
+    &quot;PublishAllPorts&quot; : false,
+    &quot;ReadonlyRootfs&quot; : false,
+    &quot;RestartPolicy&quot; : {
+      &quot;MaximumRetryCount&quot; : 0,
+      &quot;Name&quot; : &quot;&quot;
+    },
+    &quot;CpuCount&quot; : 0,
+    &quot;CpuPercent&quot; : 0,
+    &quot;IOMaximumIOps&quot; : 0,
+    &quot;IOMaximumBandwidth&quot; : 0,
+    &quot;PidMode&quot; : &quot;&quot;,
+    &quot;CgroupParent&quot; : &quot;&quot;,
+    &quot;VolumeDriver&quot; : &quot;&quot;,
+    &quot;ShmSize&quot; : 67108864,
+    &quot;Runtime&quot; : &quot;runc&quot;,
+    &quot;UTSMode&quot; : &quot;&quot;,
+    &quot;UsernsMode&quot; : &quot;&quot;,
+    &quot;ConsoleSize&quot; : [ 0, 0 ]
+  },
+  &quot;HostnamePath&quot; : &quot;/var/lib/docker/containers/510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b/hostname&quot;,
+  &quot;HostsPath&quot; : &quot;/var/lib/docker/containers/510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b/hosts&quot;,
+  &quot;LogPath&quot; : &quot;/var/lib/docker/containers/510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b/510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b-json.log&quot;,
+  &quot;Id&quot; : &quot;510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b&quot;,
+  &quot;SizeRootFs&quot; : null,
+  &quot;Image&quot; : &quot;sha256:b4b289118ee261c57701939f2fff9431e89b76287112a993cd62649bdb1bf916&quot;,
+  &quot;MountLabel&quot; : &quot;&quot;,
+  &quot;Name&quot; : &quot;/strange_goldwasser&quot;,
+  &quot;RestartCount&quot; : 0,
+  &quot;NetworkSettings&quot; : {
+    &quot;Bridge&quot; : &quot;&quot;,
+    &quot;SandboxID&quot; : &quot;894d4bfe13a7c5d8886d12a817c76ba99245b8413d767e7e0e77b735dec38378&quot;,
+    &quot;HairpinMode&quot; : false,
+    &quot;LinkLocalIPv6Address&quot; : &quot;&quot;,
+    &quot;LinkLocalIPv6PrefixLen&quot; : 0,
+    &quot;Ports&quot; : { },
+    &quot;SandboxKey&quot; : &quot;/var/run/docker/netns/894d4bfe13a7&quot;,
+    &quot;SecondaryIPAddresses&quot; : null,
+    &quot;SecondaryIPv6Addresses&quot; : null,
+    &quot;EndpointID&quot; : &quot;2cd74e663cdb70e94396f97fea2114e7baf2fbcb9261a7b9af254ef2c9235674&quot;,
+    &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+    &quot;PortMapping&quot; : null,
+    &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+    &quot;GlobalIPv6PrefixLen&quot; : 0,
+    &quot;IPAddress&quot; : &quot;172.17.0.3&quot;,
+    &quot;IPPrefixLen&quot; : 16,
+    &quot;IPv6Gateway&quot; : &quot;&quot;,
+    &quot;MacAddress&quot; : &quot;02:42:ac:11:00:03&quot;,
+    &quot;Networks&quot; : {
+      &quot;bridge&quot; : {
+        &quot;IPAMConfig&quot; : null,
+        &quot;Links&quot; : null,
+        &quot;Aliases&quot; : null,
+        &quot;NetworkID&quot; : &quot;393e44e159e60898f62caca1dfcb62a44c30f040738527dfc04545e95ad0bed7&quot;,
+        &quot;EndpointID&quot; : &quot;2cd74e663cdb70e94396f97fea2114e7baf2fbcb9261a7b9af254ef2c9235674&quot;,
+        &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+        &quot;IPAddress&quot; : &quot;172.17.0.3&quot;,
+        &quot;IPPrefixLen&quot; : 16,
+        &quot;IPv6Gateway&quot; : &quot;&quot;,
+        &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+        &quot;GlobalIPv6PrefixLen&quot; : 0,
+        &quot;MacAddress&quot; : &quot;02:42:ac:11:00:03&quot;
+      }
+    }
+  },
+  &quot;Path&quot; : &quot;/bin/sh&quot;,
+  &quot;ProcessLabel&quot; : &quot;&quot;,
+  &quot;ResolvConfPath&quot; : &quot;/var/lib/docker/containers/510f5e37449b223ae12b027e2dc891b4af9104e34097c152e87d03390617067b/resolv.conf&quot;,
+  &quot;ExecIDs&quot; : [ &quot;df8ddcfa623aa28bcfcaac758ba6eb11bc4d381ed5f9ab2a362297759a82d541&quot; ],
+  &quot;State&quot; : {
+    &quot;oomkilled&quot; : false,
+    &quot;Status&quot; : &quot;running&quot;,
+    &quot;Running&quot; : true,
+    &quot;Paused&quot; : false,
+    &quot;Restarting&quot; : false,
+    &quot;OOMKilled&quot; : false,
+    &quot;Dead&quot; : false,
+    &quot;Pid&quot; : 7032,
+    &quot;ExitCode&quot; : 0,
+    &quot;Error&quot; : &quot;&quot;,
+    &quot;StartedAt&quot; : &quot;2020-09-10T11:27:38.505949041Z&quot;,
+    &quot;FinishedAt&quot; : &quot;0001-01-01T00:00:00Z&quot;,
+    &quot;Health&quot; : null
+  },
+  &quot;Volumes&quot; : null,
+  &quot;VolumesRW&quot; : null,
+  &quot;Node&quot; : null,
+  &quot;Mounts&quot; : [ {
+    &quot;Name&quot; : &quot;420b40d4be379096ae2ebb45b88b963bf1786e60cc7ad25cd7ef93fdc77348c3&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/420b40d4be379096ae2ebb45b88b963bf1786e60cc7ad25cd7ef93fdc77348c3/_data&quot;,
+    &quot;Destination&quot; : {
+      &quot;path&quot; : &quot;/home/jenkins/.jenkins&quot;
+    },
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true
+  }, {
+    &quot;Name&quot; : &quot;eb624f473c233b2d9e65e17f40b14153ab3d9a8ecc25f9d1f3abba8a25cb8fa5&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/eb624f473c233b2d9e65e17f40b14153ab3d9a8ecc25f9d1f3abba8a25cb8fa5/_data&quot;,
+    &quot;Destination&quot; : {
+      &quot;path&quot; : &quot;/home/jenkins/agent&quot;
+    },
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true
+  } ],
+  &quot;GraphDriver&quot; : {
+    &quot;Name&quot; : &quot;overlay2&quot;,
+    &quot;Data&quot; : {
+      &quot;RootDir&quot; : null,
+      &quot;DeviceId&quot; : null,
+      &quot;DeviceName&quot; : null,
+      &quot;DeviceSize&quot; : null,
+      &quot;dir&quot; : null
+    }
+  },
+  &quot;Platform&quot; : &quot;linux&quot;
+}</inspect>
+    </com.nirima.jenkins.plugins.docker.action.DockerBuildAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.4.1">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.4.2">
+              <sha1>a82d8097fbfa7611edc29d98843489e13d30533a</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>5</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.4.2">
+              <sha1>ebdeff4e8a07fccc7fba44cd158d7327765a73e7</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@3.4.2">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/tilemountainuk/TmVuestore.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.4.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/dev</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/home/jenkins/workspace/TmVueStore_push_trigger_testing</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@0.7.2">
+      <id>16278a88-240d-4e67-90b0-98a33ce9d64a</id>
+      <colorMapName>xterm</colorMapName>
+      <command>START</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+  </actions>
+  <queueId>87</queueId>
+  <timestamp>1599737267569</timestamp>
+  <startTime>1599737267586</startTime>
+  <result>SUCCESS</result>
+  <duration>56885</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>jenkins_agent1-0000wweoma91y</builtOn>
+  <workspace>/home/jenkins/workspace/TmVueStore_push_trigger_testing</workspace>
+  <hudsonVersion>2.256</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.4.1">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>nawazsohail10</string>
+  </culprits>
+</build>

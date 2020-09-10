@@ -1,0 +1,69 @@
+Started by GitHub push by osamaarshad1992
+Running as SYSTEM
+Building remotely on [8mha:////4KRTx0/Fuas8gGp1HcgsYXUS2vc5g3ZRet9l4us3PWK7AAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY1/eT83ILSktQi/azUvOzMvOL4xPTUvBJDXQMgKDM1Mys0TbLIAADnNDPZ2wAAAA==[0mjenkins_agent1-0000v566q5b8h on docker (Agent1) in workspace /home/jenkins/workspace/TmVueStore_push_trigger_testing
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tilemountainuk/TmVuestore.git
+ > git init /home/jenkins/workspace/TmVueStore_push_trigger_testing # timeout=10
+Fetching upstream changes from https://github.com/tilemountainuk/TmVuestore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/tilemountainuk/TmVuestore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tilemountainuk/TmVuestore.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/MetaTag
+Seen branch in repository origin/NewSearchPageBranch
+Seen branch in repository origin/Searchpanel
+Seen branch in repository origin/SubCategoriesTask
+Seen branch in repository origin/TMVS2-1
+Seen branch in repository origin/TMVS2-1new
+Seen branch in repository origin/TMVS2-2
+Seen branch in repository origin/TMVS2-23
+Seen branch in repository origin/TMVS2-25
+Seen branch in repository origin/TMVS2-26
+Seen branch in repository origin/TMVS2-37
+Seen branch in repository origin/TMVS2-38
+Seen branch in repository origin/TMVS2-44
+Seen branch in repository origin/TMVS2-44N
+Seen branch in repository origin/cartpagespacing
+Seen branch in repository origin/dev
+Seen branch in repository origin/footer_banner
+Seen branch in repository origin/header-issues
+Seen branch in repository origin/header-new
+Seen branch in repository origin/home_delivery
+Seen branch in repository origin/home_sliders
+Seen branch in repository origin/home_videos
+Seen branch in repository origin/layeredNav
+Seen branch in repository origin/main_product
+Seen branch in repository origin/master
+Seen branch in repository origin/mountcall
+Seen branch in repository origin/product_slider
+Seen branch in repository origin/recently-view
+Seen branch in repository origin/revert-22-product_slider
+Seen branch in repository origin/revert-3-Searchpanel
+Seen branch in repository origin/reviews
+Seen branch in repository origin/success
+Seen branch in repository origin/viewcart
+Seen 33 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision e086b9c24543405ed5ce62394ed9252aa222408b (origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e086b9c24543405ed5ce62394ed9252aa222408b # timeout=10
+Commit message: "Merge pull request #28 from tilemountainuk/recently-view"
+First time build. Skipping changelog.
+[8mha:////4IJNRIb6w0hIu/6sYmGCBrdJfigfhVV0iWA4LgA3/ofJAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFUNDCwMDy6RUXcNkQzNdEwPTRN1EUwMLXQMj4zRjM4skMwvjJAB95fuFrwAAAA==[0m[TmVueStore_push_trigger_testing] $ /bin/sh -xe /tmp/jenkins3109787444545083676.sh
++ echo Build number
+Build number
++ echo 2
+2
++ echo Build ID
+Build ID
++ echo 2
+2
++ echo Build URL:	http://192.168.1.182:8080/job/TmVueStore_push_trigger_testing/2/
+Build URL:	http://192.168.1.182:8080/job/TmVueStore_push_trigger_testing/2/
++ echo JOB URL: 	http://192.168.1.182:8080/job/TmVueStore_push_trigger_testing/
+JOB URL: 	http://192.168.1.182:8080/job/TmVueStore_push_trigger_testing/
+Finished: SUCCESS

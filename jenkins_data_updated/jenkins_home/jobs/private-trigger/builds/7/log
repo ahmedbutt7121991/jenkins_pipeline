@@ -1,0 +1,27 @@
+Started by GitHub push by ahmedbutt7121991
+Running as SYSTEM
+Building remotely on [8mha:////4CBS8LyWmC8OvudCBg1KSmYPyUYFSk+tAo1k773xCOk9AAAAsB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy1EgY1/eT83ILSktQi/azUvOzMvOL4xPTUvBJDXQMgKDUpTgealmUJAMTQwfLbAAAA[0mjenkins_agent1-0000u4sgudsj9 on docker (Agent1) in workspace /home/jenkins/workspace/private-trigger
+The recommended git tool is: NONE
+using credential gitcred
+Cloning the remote Git repository
+Cloning repository git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git init /home/jenkins/workspace/private-trigger # timeout=10
+Fetching upstream changes from git@github.com:ahmedbutt7121991/gitwebhook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:ahmedbutt7121991/gitwebhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ahmedbutt7121991/gitwebhook.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bed29ce066f3f152ef32db3a4dd220971da12a92 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bed29ce066f3f152ef32db3a4dd220971da12a92 # timeout=10
+Commit message: "parallel Agent execution"
+ > git rev-list --no-walk 1d3eabcfc57fd1cb422a60fb9eeba3e3a9031c4b # timeout=10
+[private-trigger] $ /bin/sh -xe /tmp/jenkins6189987281372157571.sh
++ echo Private Need SSH url and SSH credantials
+Private Need SSH url and SSH credantials
+Finished: SUCCESS

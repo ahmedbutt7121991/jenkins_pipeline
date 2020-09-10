@@ -1,0 +1,15 @@
+commit 6f8276ae7d1e623f9b70e3b7ec448eff4374cfbc
+tree f876ccaa0d999ae2d9b094ef172600bad5ceca7a
+parent 27b798068ce936b219ecb8126ae8b96ca3baffa4
+author sohail114 <nawazsohail10@gmail.com> 2020-09-14 19:18:21 +0500
+committer sohail114 <nawazsohail10@gmail.com> 2020-09-14 19:18:21 +0500
+
+    styling Product slider
+
+
+:100644 100644 fddae370811e6756e8257d2bc3f8dfd486770eb2 25138b7c926406cf9891e7745bcb98badc166aac M	src/themes/defaults/components/core/ProductGalleryCarousel.vue
+:100644 100644 fd27016d349b9eb450fc4345bac46ea04c5b0f14 a774e68c0841d8b1b0cee5bc6ac412a4539b551d M	src/themes/tilemountain/components/ProdlistingtileCarousel.vue
+:100644 100644 27bd7705e0b3e98fa4c2d8015a1c18cd763769ca f6d8c9884f99b0680acdddd22d1ec9f9cfeb253f M	src/themes/tilemountain/components/ProdrecentlistingCarousel.vue
+:100644 100644 baa55cb3c5f3ebcf82235c80d87ffca658ce4799 761c50b66fdbff8c18d1e56ef24f8372f2f39d1b M	src/themes/tilemountain/components/RecentlyViewedItems.vue
+:100644 100644 15857b50f2f8ba49079bac96ce73007a3108c253 442f06a10c476b4edf8e7080010b78f4ecb5987c M	src/themes/tilemountain/components/core/ProductGalleryCarousel.vue
+:100644 100644 0cb6e27807a0a4f2f836b37318cc4cfb0d061641 eff161aa64db234a8212699e81803c2844e4c7dc M	src/themes/tilemountain/pages/Product.vue

@@ -1,0 +1,4 @@
+- hosts: test1
+  tasks:
+    - name: run this command and create a file in remote_host
+      shell: echo "Hello World" > /tmp/ansible-file

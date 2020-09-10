@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-09 12:41:40.491 UTC</timestamp>
+  <md5sum>ecb31056df792ab0c8045d575c832217</md5sum>
+  <fileName>Credential id=gitcred name=root</fileName>
+  <usages>
+    <entry>
+      <string>private-trigger</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
+      <string>pipeline-test</string>
+      <ranges>18-24</ranges>
+    </entry>
+    <entry>
+      <string>test_job</string>
+      <ranges>5-21</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

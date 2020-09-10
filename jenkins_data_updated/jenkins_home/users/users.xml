@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>hamza.khan</string>
+      <string>hamzakhan_2650287792636149331</string>
+    </entry>
+    <entry>
+      <string>nawazsohail10</string>
+      <string>nawazsohail10_6260790771048696402</string>
+    </entry>
+    <entry>
+      <string>noreply</string>
+      <string>noreply_4336325899525460332</string>
+    </entry>
+    <entry>
+      <string>ahmed.butt91</string>
+      <string>ahmedbutt91_7815877020956523195</string>
+    </entry>
+    <entry>
+      <string>jenkins</string>
+      <string>jenkins_4681726643518299216</string>
+    </entry>
+    <entry>
+      <string>admin</string>
+      <string>admin_6297894238630996497</string>
+    </entry>
+    <entry>
+      <string>syed.haider</string>
+      <string>syedhaider_3402403625166047261</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

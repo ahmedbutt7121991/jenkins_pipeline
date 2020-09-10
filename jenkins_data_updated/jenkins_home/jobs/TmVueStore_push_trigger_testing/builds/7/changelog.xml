@@ -1,0 +1,23 @@
+commit 4b33bebf7b708e8793d94046333e420d01aea824
+tree 458b9fe6ea5dd2e305f7761eaa0dc6e2e6a2055d
+parent 7faaeedaf16f1ce06d4822e11c1fb5d3984dad4e
+author Hamza Khan <hamza.khan@ki5.co.uk> 2020-09-15 16:15:30 +0500
+committer Hamza Khan <hamza.khan@ki5.co.uk> 2020-09-15 16:15:30 +0500
+
+    modal added to  add to basket butto
+
+
+:100644 100644 b2e1c4d0c7be5e44572b079e1956bc88a87255b8 656260cfcb3918c6c482352ca141f341a6af5145 M	src/themes/tilemountain/components/core/AddTobasketModal.vue
+commit 93a7ce755b185df0f3146c6ca11a41df218b3eaf
+tree 6dfed7157f6a3f76a0022c3bc43f46de197426e1
+parent e086b9c24543405ed5ce62394ed9252aa222408b
+author Hamza Khan <hamza.khan@ki5.co.uk> 2020-09-15 13:09:03 +0500
+committer Hamza Khan <hamza.khan@ki5.co.uk> 2020-09-15 13:09:03 +0500
+
+    modal added to  add to basket butto
+
+
+:000000 100644 0000000000000000000000000000000000000000 22d6446a26328901f63447dc3753d7619a123d35 A	src/themes/tilemountain/assets/dropdownarrow.svg
+:100644 100644 9b070a85a2fddf006d9406e174c1731e0338b8a7 66b8a25251554edf634776dd4dc9d4dfe857288c M	src/themes/tilemountain/components/core/AddToCart.vue
+:000000 100644 0000000000000000000000000000000000000000 b2e1c4d0c7be5e44572b079e1956bc88a87255b8 A	src/themes/tilemountain/components/core/AddTobasketModal.vue
+:100644 100644 0cb6e27807a0a4f2f836b37318cc4cfb0d061641 71c7693d83a92b7170f1db685952cd15f836a2f1 M	src/themes/tilemountain/pages/Product.vue

@@ -1,0 +1,14 @@
+Started on Sep 10, 2020 9:17:18 AM
+Started by event from 140.82.115.242 ⇒ http://jenkins.tm8.co.uk:8080/github-webhook/ on Thu Sep 10 09:17:18 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 1d3eabcfc57fd1cb422a60fb9eeba3e3a9031c4b (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential gitcred
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials 
+ > git ls-remote -h -- git@github.com:ahmedbutt7121991/gitwebhook.git # timeout=10
+Found 2 remote heads on git@github.com:ahmedbutt7121991/gitwebhook.git
+[poll] Latest remote head revision on refs/heads/master is: bed29ce066f3f152ef32db3a4dd220971da12a92
+Done. Took 3.1 sec
+Changes found
